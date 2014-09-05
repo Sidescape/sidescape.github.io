@@ -2,10 +2,12 @@ hr {
     display: block; 
     margin: 1em 0; 
     padding: 0;
-    height: 1px; 
     border: 0; 
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #fff; 
+    border-top: 5px solid #000;
+    height: 5px;
+/*
+    background: url('/images/moon-crescent-outline.svg') -5px 0 no-repeat;
+    background-size: 25px 45px;*/
 }
 
 // Figures and images

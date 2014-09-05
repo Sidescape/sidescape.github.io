@@ -1,5 +1,6 @@
 /*! Plugin options and other jQuery stuff */
 
+/*
 // Responsive Nav
 var navigation = responsiveNav("#site-nav", { // Selector: The ID of the wrapper
   animate: true, // Boolean: Use CSS3 transitions, true or false
@@ -14,6 +15,7 @@ var navigation = responsiveNav("#site-nav", { // Selector: The ID of the wrapper
   close: function(){} // Function: Close callback
 });
 
+
 $('html').click(function() {
   //Hide the menus if visible
   navigation.toggle();
@@ -23,10 +25,12 @@ $('#site-nav').click(function(event){
     event.stopPropagation();
 });
 
+
 // FitVids options
 $(function() {
 	$("article").fitVids();
 });
+*/
 
 // Add lightbox class to all image links
 $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

@@ -92,9 +92,11 @@ body {
 .masthead {
 	margin-top: 40px;
 	@include clearfix;
-	@media #{$medium} {
-		margin-top: 0;
-	}
+
+//	@media #{$medium} {
+//		margin-top: 0;
+//	}
+
 	.wrap {
 		text-align: center;
 		max-width: 27.5em;
@@ -135,6 +137,15 @@ body {
 			@include rounded(200px);
 		}
 	}
+}
+a.site-logo.affix {
+  left: calc(50% - 50px);
+  @media #{$medium} {
+  	left: calc(50% - 75px);
+  }
+  @media #{$large} {
+		left: calc(50% - 100px);
+  }
 }
 .site-title {
 	margin-bottom: 0;
@@ -212,6 +223,7 @@ span + .entry-title {
 }
 .entry-title {
 	font-family: $alt-font;
+//  font-family: 'Chancery-Uralic' !important;
 	font-style: italic;
 	@include font-rem(36);
 	font-weight: 400;
@@ -397,6 +409,8 @@ span + .entry-title {
 	margin: 2em auto;
 	text-align: center;
 	font-family: $alt-font;
+  border-top: 5px solid black;
+  padding-top: 10px;
 	@include font-rem(14);
 	font-style: italic;
 	color: lighten($text-color,20);

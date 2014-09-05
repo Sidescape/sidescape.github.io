@@ -1,3 +1,4 @@
+{% comment %}
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
@@ -13,15 +14,14 @@
 	    </ul>
 	</nav>
 </div><!-- /.navigation-wrapper -->
+{% endcomment %}
 
 {% include browser-upgrade.html %}
-
-{% if site.search %}{% include site-search.html %}{% endif %}
 
 {% if page.image.feature %}<header class="masthead">
 	{% if site.logo != null %}
 		<div class="wrap">
-			<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
+			<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}" data-spy="affix" data-offset-top="60"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
 		</div>
 	{% endif %}
 </header><!-- /.masthead -->
