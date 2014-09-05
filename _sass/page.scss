@@ -138,15 +138,6 @@ body {
 		}
 	}
 }
-a.site-logo.affix {
-  left: calc(50% - 50px);
-  @media #{$medium} {
-  	left: calc(50% - 75px);
-  }
-  @media #{$large} {
-		left: calc(50% - 100px);
-  }
-}
 .site-title {
 	margin-bottom: 0;
 	-webkit-animation-duration: 1s;
