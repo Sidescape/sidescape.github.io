@@ -93,6 +93,8 @@ body {
 	margin-top: 40px;
 	@include clearfix;
 	
+	background-color: $black;
+	
 	background: url("/images/feature-crop-top.jpg") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
 
   box-shadow: 0 -7px 25px -7px black inset;
