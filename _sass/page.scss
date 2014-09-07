@@ -92,6 +92,25 @@ body {
 .masthead {
 	margin-top: 40px;
 	@include clearfix;
+	
+	background: url("/images/feature-crop-top.jpg") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+
+  box-shadow: 0 -7px 25px -7px black inset;
+  border-bottom: 5px solid black;
+  margin-top: 40px;
+
+	@media #{$small} {
+		height: 200px;
+	}
+
+	@media #{$medium} {
+		height: 450px;
+	}
+
+	@media #{$large} {
+		height: 500;
+	}
+
 
 //	@media #{$medium} {
 //		margin-top: 0;
@@ -102,6 +121,7 @@ body {
 		max-width: 27.5em;
 		padding-right: 20px;
 		padding-left: 20px;
+		margin-top: -40px;
 		@media #{$medium} {
 			max-width: 45.5em;
 			padding-right: 60px;
@@ -139,7 +159,10 @@ body {
 	}
 }
 .site-title {
+  font-style: italic;
 	margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 	-webkit-animation-duration: 1s;
 	-moz-animation-duration: 1s;
 	-o-animation-duration: 1s;
@@ -148,14 +171,25 @@ body {
     -moz-animation-delay: .75s;
     -o-animation-delay: .75s;
     animation-delay: .75s;	
-	a { color: $black; }
-}
+	a {
+	  color: $white;
+	  text-decoration: none;
+	  }
+  @include font-rem(44);
+ 	@media #{$medium} {
+	  @include font-rem(60);
+  }
+ 	@media #{$large} {
+	  @include font-rem(76);
+  }
+}  
 .site-description {
-	margin-top: 0;
+  color: $white;
+	margin-top: 2em;
 	font-family: $alt-font;
-	@include font-rem(16);
+	@include font-rem(18);
 	font-weight: 400;
-	font-style: italic;
+//	font-style: italic;
 	-webkit-animation-duration: 1s;
 	-moz-animation-duration: 1s;
 	-o-animation-duration: 1s;
@@ -165,7 +199,7 @@ body {
     -o-animation-delay: 1s;
     animation-delay: 1s;
 	@media #{$medium} {
-		@include font-rem(20);
+		@include font-rem(24);
 	}
 }
 
@@ -179,6 +213,12 @@ body {
 	@include clearfix;
 	border-bottom: 1px solid lighten($black,80);
 	border-bottom: 1px solid rgba($black,.10);
+}
+.featurette-image {
+  max-width:40%;
+  border-radius:50%;
+  border: 6px solid #000;
+  box-sizing: border-box;
 }
 .entry-feature-image {
 	margin: 20px 0 0;

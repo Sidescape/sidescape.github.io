@@ -24,9 +24,15 @@
 }
 .pull-left {
 	float: left;
+	&.featurette-image {
+	  margin-right:1em;	
+	}
 }
 .pull-right {
 	float:right;
+	&.featurette-image {
+	  margin-left:1em;
+	}
 }
 .unstyled-list {
 	list-style: none;
