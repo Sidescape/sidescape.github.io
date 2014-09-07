@@ -5,8 +5,8 @@ locale: en_US
 description: Describe your website here.
 logo: site-logo.png
 search: false
-#url: //sidescape.github.io
-url: //localhost:4002
+url: //sidescape.github.io
+#url: //localhost:4002
 
 
 # Jekyll configuration
