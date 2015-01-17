@@ -35,7 +35,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Sidescape Media
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: SidescapeMedia@gmail.com
   disqus-shortname:
   twitter: SidescapeMedia
   facebook: #username
