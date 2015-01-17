@@ -1,28 +1,63 @@
 ---
 layout: page
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 ---
-# Section 1 #
-* * * 
-<img src="/images/house-sq-2.jpg" class="pull-right featurette-image">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis hendrerit nulla. Maecenas ut nulla nunc. Nullam euismod at metus at sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut nisl dolor. Morbi vestibulum libero at sem luctus sagittis. Aenean malesuada feugiat pulvinar. Nullam scelerisque, sem sit amet euismod porta, nisl massa mattis risus, ornare cursus turpis dui sed nunc. Phasellus mattis accumsan erat.
 
-
-# Section 2 #
+# Audience #
 * * *
-<img src="/images/boats-sq.jpg" class="pull-left featurette-image">
-Donec pulvinar sem dui, nec ultricies nisl adipiscing ac. Etiam purus sem, ultricies a aliquam in, dictum vel quam. In eget accumsan purus. Donec eget blandit mauris, nec iaculis felis. Ut molestie vehicula condimentum. Etiam eu imperdiet mi. Mauris at mauris interdum, pulvinar sem quis, tincidunt orci. Phasellus in sodales lorem. Praesent egestas leo vitae erat lobortis, hendrerit egestas enim venenatis.
+
+<span class="fa-stack subtlecircle section-logo pull-left" style="background:black; border-radius:50%;">
+  <i class="fa fa-circle fa-stack-2x" style="color:white;"></i>
+  <i class="fa fa-users fa-stack-1x" style="color:black;"></i>
+</span>
 
 
-# Section 3 #
+## The first rule of communication is to know your audience. ##
+
+<div class="para">
+All communities gather into hubs where activity and discussion take place. At Sidescape, we seek out those hubs and learn what topics are most interesting to the group. Through direct engagement we find out what content our audience wants most.
+</div>
+
+# Experts #
 * * *
-<img src="/images/bridge-sq.jpg" class="pull-right featurette-image">
-Nullam quis lorem urna. Nunc sed tellus sem. Morbi commodo vel diam sed accumsan. Cras posuere, augue ut convallis pulvinar, tortor quam consectetur ante, ut porttitor dolor tortor sed tortor. Proin pulvinar, libero non hendrerit pharetra, est ante tincidunt ligula, et aliquam augue urna ut est. Ut et libero eu magna sollicitudin fringilla vitae ac elit. Nulla lectus felis, ornare quis ligula nec, lobortis consectetur lorem. Etiam eget aliquam felis. Ut congue cursus quam, vitae dignissim lorem pulvinar bibendum. Nullam varius odio euismod sagittis sagittis. Curabitur vel purus justo. Duis sed leo non velit semper imperdiet et et sapien. Mauris sit amet felis imperdiet, consequat quam malesuada, varius urna.
+
+<span class="fa-stack subtlecircle section-logo pull-right" style="background:black; border-radius:50%;">
+  <i class="fa fa-circle fa-stack-2x" style="color:white;"></i>
+  <i class="fa fa-lightbulb-o fa-stack-1x" style="color:black;"></i>
+</span>
 
 
-# Section 4 #
+## Every community has members who are particularly active. ##
+
+<div class="para">
+The active members become experts in the subject, and are skilled at communicating with the group. Sidescape reaches out to collaborate with them, and find out what content they want to create.
+</div>
+
+# Production #
 * * *
-<img src="/images/city-sq.jpg" class="pull-left featurette-image">
-Integer sodales, mi eu ultrices pulvinar, sem nisl convallis lorem, eu lacinia nulla nisi nec erat. Aenean eros justo, tincidunt in arcu sit amet, tempus fermentum nisl. Aenean tincidunt nisi quis tincidunt pretium. Phasellus sagittis sodales turpis, id mattis massa viverra tempus. Duis viverra, erat et cursus porta, sem quam commodo justo, vitae ultrices ipsum quam vel urna. Cras nec vestibulum metus. Ut eu euismod libero. Aliquam erat volutpat. Nulla facilisi. In eget magna iaculis, mollis metus eu, congue erat. Nulla congue mollis elit sed vestibulum. Morbi vitae congue purus. Cras convallis ut arcu eu eleifend. Nullam auctor leo a scelerisque vulputate.
+<span class="fa-stack subtlecircle section-logo pull-left" style="background:black; border-radius:50%;">
+  <i class="fa fa-circle fa-stack-2x" style="color:white;"></i>
+  <i class="fa fa-file-text-o fa-stack-1x" style="color:black;"></i>
+</span>
 
-Ut non aliquam nunc. Mauris ac consectetur ligula. Nulla tortor purus, porta eget augue ac, accumsan lacinia sapien. Nunc in dapibus erat, sit amet lobortis neque. Suspendisse potenti. Quisque a nisi malesuada, tincidunt risus id, vestibulum lectus. Maecenas quis tellus vestibulum, volutpat ipsum at, volutpat erat. Ut ac aliquam nibh. 
+
+## Technical staff support the creative process. ##
+
+<div class="para">
+
+Making digital media requires technical knowledge. Sidescape uses advanced standards and formats to let authors focus on creating content.
+ 
+</div>
+
+
+# Distribution #
+* * *
+<span class="fa-stack subtlecircle section-logo pull-right" style="background:black; border-radius:50%;">
+  <i class="fa fa-circle fa-stack-2x" style="color:white;"></i>
+  <i class="fa fa-truck fa-stack-1x" style="color:black;"></i>
+</span>
+
+
+## Content is published where it can reach the audience. ##
+<div class="para">
+Sidescape uses common standards to distribute media on multiple platforms without losing quality. Integrated feedback and metrics collect data that shapes the next generation of content.
+</div>
