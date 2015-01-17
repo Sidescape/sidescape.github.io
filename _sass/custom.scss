@@ -1,6 +1,50 @@
 h1 {
-clear:both;
-margin-top: 0px;
-padding-top: 20px;
-margin-bottom: 20px;
+  clear:both;
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.site-description {
+  margin-top: 1em;
+}
+
+.section-logo {
+
+  font-size:65px;
+  
+	@media #{$medium} {
+    font-size:65px;
+	}
+	@media #{$large} {
+  	margin:10px;
+    font-size:100px;
+	}
+}
+
+.pull-left {
+  margin-right:10px;
+  margin-left:0px;
+	@media #{$large} {
+  	margin-right:20px;
+	}
+}
+
+.pull-right {
+  margin-left:10px;
+  margin-right:0px;  
+	@media #{$large} {
+  	margin-left:20px;
+	}
+}
+
+div.para {
+
+	@media #{$medium} {
+    overflow: hidden;
+	}
+	@media #{$large} {
+    overflow: hidden;
+  }
+
 }
