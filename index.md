@@ -14,7 +14,7 @@ layout: page
 ## The first rule of communication is to know your audience. ##
 
 <div class="para">
-All communities gather into hubs where activity and discussion take place. At Sidescape, we seek out those hubs and learn what topics are most interesting to the group. Through direct engagement we find out what content our audience wants most.
+All communities gather into hubs where activity and discussion take place. At Sidescape, we seek out those hubs and learn what topics are most interesting to the group. By direct engagement we find out what content our audience wants.
 </div>
 
 # Experts #
